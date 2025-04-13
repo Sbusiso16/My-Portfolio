@@ -1,0 +1,64 @@
+index.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple portfolio website">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Sbusiso Malaza, a web developer. I enjoy coding, creating websites, and learning new technologies.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>E-commerce Website for Local Business</h3>
+      <p>Developed an e commerce website for a local retail store to sell their products online.Intergrated shopping cart, product pages, payment gateway and customer account for seamless shopping experience.The technologies i used were HTML5, CSS3, JavaScript, React, Node.js, MongoDB, StripeAI. And then advised on the best CMS and e-commerce tools, designed the user interface to be mobile first, and helped with the deployment and maintanance of the website. </p>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website For a Graphic Designer</h3>
+      <p>Built a portfolio website  for graphic designer to showcase their artwork and design projects. Implemented image galleries, projects details, and a contact form for clients. Technologies used were HTML5, CSS3, Javascript, JQuery, Bootstrap. And therefore provided advice on effective layout, unsured unresponsive designs for all screen sizes, and optimized images for faster loading. </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder=" " required>
+      <input type="text" id="email" placeholder="" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="response"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sbusiso Malaza. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
